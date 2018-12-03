@@ -1,0 +1,53 @@
+.jumbotron {
+    border-radius: 0;
+}
+
+/* .jumbotron {
+    background-image: url('images/teddy-bear.jpg');
+    background-size: cover;
+} */
+
+.jumbotron{
+    background: url('images/teddy-bear.jpg') no-repeat center center; 
+}
+
+.background-blue {
+    background-color: aliceblue;
+    padding: 32px;
+}
+
+.card {
+    margin-bottom: 16px;
+}
+
+footer {
+    padding: 32px 0;
+}
+
+nav {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    background-color: white !important;
+}
+
+.forum-post {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+}
+.forum-post .left-side {
+    padding: 8px;
+    border-right: 1px solid rgba(0,0,0,0.16);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.forum-post .right-side {
+    padding: 8px;
+}
+.forum-post .title {
+    /* margin-bottom: 0; */
+}
+.forum-post .content-preview {
+    padding: 16px 0;
+}
